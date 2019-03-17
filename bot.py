@@ -58,7 +58,7 @@ async def website():        #Définit la fonction «website».
 @bot.command(pass_context=True)     #Définit une commande pour le bot.
 async def reboot(ctx):      #Définit la fonction «reboot».
     """Ask to reboot now"""     #Description de la commande «reboot».
-    if ctx.message.author.id == '192361476844027904':       #Si l'identification correspond à l'identification donnée, ...
+    if ctx.message.author.id == '192361476844027904','357566595029008387':       #Si l'identification correspond à l'identification donnée, ...
         await bot.say("Restart in progress")        #Alors, le programme de redémarrage s'éffectue.
         await bot.say("{} , my beloved master ... <3.".format(ctx.message.author.mention))
         print("Restart in progress")
